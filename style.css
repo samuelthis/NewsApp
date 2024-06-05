@@ -74,6 +74,7 @@
     cursor: pointer;
     outline: none ;
  }
+ 
 
  .news-container {
     display: grid;
@@ -117,5 +118,17 @@
  }
 
  .news-article a:hover {
-    color: #337ab7;
+    color: red;
+ }
+
+
+ .bottom-bar {
+   background: #f18930;
+   text-align: center;
+   padding: 10px 0;
+   margin-top: 50px;
+ }
+
+ .bottom-bar p{
+   color:#fff;
  }
